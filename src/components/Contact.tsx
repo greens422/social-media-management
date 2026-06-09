@@ -26,7 +26,7 @@ export function Contact() {
             </h2>
             <p className="mt-6 text-lg text-white/50 leading-relaxed">
               Tell us about your business. We&apos;ll figure out the series, the
-              hooks, and the shoot — Whistler or wherever you are.
+              hooks, and the shoot. Whistler or wherever you are.
             </p>
           </motion.div>
 

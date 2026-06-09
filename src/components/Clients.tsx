@@ -17,7 +17,7 @@ export function Clients() {
             FEEDS THAT HIT DIFFERENT
           </h2>
           <p className="mt-4 text-lg text-white/50">
-            Restaurants, bike shops, retail — bold graphics, high energy, and
+            Restaurants, bike shops, retail. Bold graphics, high energy, and
             content that actually sounds like the business.
           </p>
         </div>

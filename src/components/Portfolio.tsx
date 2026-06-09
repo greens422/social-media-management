@@ -39,7 +39,7 @@ export function Portfolio({ items }: PortfolioProps) {
             REELS THAT HIT DIFFERENT
           </h2>
           <p className="mt-4 text-lg text-white/50 leading-relaxed">
-            Restaurants, bike shops, retail — trivia series, product demos, challenge
+            Restaurants, bike shops, retail. Trivia series, product demos, challenge
             reels, and the kind of content that makes people tag their friends.
           </p>
         </div>

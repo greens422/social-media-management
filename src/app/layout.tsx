@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — ${siteConfig.tagline}`,
+  title: `${siteConfig.name} | ${siteConfig.tagline}`,
   description: siteConfig.description,
   openGraph: {
     title: siteConfig.name,

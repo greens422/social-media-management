@@ -28,7 +28,7 @@
       "instagramUrl": "https://instagram.com/chubby.ducks",
       "platforms": ["instagram", "tiktok"],
       "stats": { "views": "62K", "engagement": "10.1%" },
-      "description": "High-drama challenge content — reactions, group moments, and the kind of clips people send to their group chat.",
+      "description": "High-drama challenge content: reactions, group moments, and the kind of clips people send to their group chat.",
       "featured": true
     },
     {
@@ -42,7 +42,7 @@
       "instagramUrl": "https://instagram.com/fanatykco",
       "platforms": ["instagram"],
       "stats": { "views": "28K", "engagement": "7.4%" },
-      "description": "Product unboxing reel for the new Pivot Shuttle Amp'd — face-to-camera energy that makes premium gear feel accessible.",
+      "description": "Product unboxing reel for the new Pivot Shuttle Amp'd: face-to-camera energy that makes premium gear feel accessible.",
       "featured": true
     },
     {
@@ -56,7 +56,7 @@
       "instagramUrl": "https://instagram.com/fanatykco",
       "platforms": ["instagram"],
       "stats": { "views": "22K", "engagement": "6.8%" },
-      "description": "In-shop demo reel with bold product graphics — same vlog energy, different industry.",
+      "description": "In-shop demo reel with bold product graphics. Same vlog energy, different industry.",
       "featured": false
     },
     {
@@ -70,7 +70,7 @@
       "instagramUrl": "https://instagram.com/chubby.ducks",
       "platforms": ["instagram", "tiktok"],
       "stats": { "views": "38K", "engagement": "8.7%" },
-      "description": "First-bite poutine reaction — unscripted, genuine, and the reason people show up hungry.",
+      "description": "First-bite poutine reaction: unscripted, genuine, and the reason people show up hungry.",
       "featured": false
     },
     {
@@ -100,7 +100,7 @@
       "instagramUrl": "https://instagram.com/fanatykco",
       "platforms": ["instagram"],
       "stats": { "views": "18K", "engagement": "5.9%" },
-      "description": "Product spotlight reel — technical gear made scrollable with personality and punchy text overlays.",
+      "description": "Product spotlight reel: technical gear made scrollable with personality and punchy text overlays.",
       "featured": false
     },
     {
@@ -142,7 +142,7 @@
       "instagramUrl": "https://instagram.com/fanatykco",
       "platforms": ["instagram"],
       "stats": { "views": "31K", "engagement": "7.1%" },
-      "description": "In-store demo content that drives foot traffic — bikes, gear, and the people who know their stuff.",
+      "description": "In-store demo content that drives foot traffic: bikes, gear, and the people who know their stuff.",
       "featured": false
     }
   ]

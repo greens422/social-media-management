@@ -47,7 +47,7 @@ body {
   paint-order: stroke fill;
 }
 
-/* Halftone dot pattern — street-interview energy */
+/* Halftone dot pattern for street-interview energy */
 .bg-halftone {
   background-image: radial-gradient(circle, rgba(255, 229, 0, 0.15) 1px, transparent 1px);
   background-size: 12px 12px;

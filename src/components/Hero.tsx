@@ -3,11 +3,9 @@
 import { motion } from "framer-motion";
 import { Play, MapPin, ChevronDown } from "lucide-react";
 import { siteConfig } from "@/config/site";
-import { getFeaturedItems } from "@/lib/portfolio";
+import { FeaturedReelStack } from "@/components/FeaturedReelStack";
 
 export function Hero() {
-  const featured = getFeaturedItems().slice(0, 3);
-
   return (
     <section className="relative min-h-screen overflow-hidden bg-ink">
       <div className="absolute inset-0 bg-halftone opacity-50" />
@@ -88,56 +86,12 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Featured reel stack — phone-style with yellow borders */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="relative hidden lg:block h-[540px]"
           >
-            {featured.map((item, i) => (
-              <motion.div
-                key={item.id}
-                initial={{ opacity: 0, y: 40, rotate: (i - 1) * 4 }}
-                animate={{ opacity: 1, y: 0, rotate: (i - 1) * 4 }}
-                transition={{ duration: 0.5, delay: 0.4 + i * 0.12 }}
-                className="absolute w-[230px] overflow-hidden border-4 border-yellow shadow-[0_0_40px_rgba(255,229,0,0.15)]"
-                style={{
-                  top: `${i * 55}px`,
-                  left: `${i * 75}px`,
-                  zIndex: featured.length - i,
-                }}
-              >
-                <div className="relative aspect-[9/16]">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={item.thumbnail}
-                    alt={item.title}
-                    className="h-full w-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
-
-                  {item.episode && (
-                    <div className="absolute top-3 left-3 bg-yellow px-2 py-0.5 font-display text-sm tracking-wide text-ink">
-                      {item.episode}
-                    </div>
-                  )}
-
-                  <div className="absolute bottom-0 left-0 right-0 bg-ink p-3 border-t-4 border-yellow">
-                    <p className="font-display text-lg text-yellow tracking-wide leading-none">
-                      {item.client.toUpperCase()}
-                    </p>
-                    <p className="text-xs text-white/70 mt-1">{item.title}</p>
-                  </div>
-
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <div className="flex h-14 w-14 items-center justify-center bg-yellow">
-                      <Play size={20} className="text-ink fill-ink ml-0.5" />
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
+            <FeaturedReelStack />
           </motion.div>
         </div>
 

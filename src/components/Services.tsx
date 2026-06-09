@@ -62,7 +62,7 @@ export function Services() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { step: "01", title: "Find the hook", desc: "What's the series? The product? The question that makes people stop scrolling?" },
-              { step: "02", title: "Show up & shoot", desc: "On the street, in the shop, on the floor — real people, real reactions, zero scripts." },
+              { step: "02", title: "Show up & shoot", desc: "On the street, in the shop, on the floor. Real people, real reactions, zero scripts." },
               { step: "03", title: "Edit loud", desc: "Bold graphics, episode numbers, captions that pop on any feed." },
               { step: "04", title: "Post & repeat", desc: "Consistent series branding that builds an audience episode by episode." },
             ].map((item) => (

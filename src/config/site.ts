@@ -1,10 +1,21 @@
 export const siteConfig = {
   name: "Two Guys Media",
   shortName: "Two Guys",
-  founders: ["Seb", "Tobi"],
+  founders: [
+    {
+      name: "Seb",
+      handle: "@sebsidequest",
+      instagram: "https://www.instagram.com/sebsidequest/",
+    },
+    {
+      name: "Tobi",
+      handle: "@tobes38_",
+      instagram: "https://www.instagram.com/tobes38_/",
+    },
+  ],
   tagline: "Social content, no filter.",
   description:
-    "Seb and Tobi make vlog-style reels for local businesses — restaurants, bike shops, retail, and anyone with a story worth telling. Street trivia, product unboxings, challenge series, and content people actually send to their friends.",
+    "We make vlog-style reels for local businesses: restaurants, bike shops, retail, and anyone with a story worth telling. Street trivia, product unboxings, challenge series, and content people actually send to their friends.",
   origin: "Whistler, BC",
   email: "hello@twoguysmedia.co",
   social: {
@@ -42,13 +53,13 @@ export const siteConfig = {
     {
       title: "Vlog-Style Reels",
       description:
-        "Fast-paced, personality-driven short-form for any business — restaurants, retail, hospitality, you name it.",
+        "Fast-paced, personality-driven short-form for any business: restaurants, retail, hospitality, you name it.",
       icon: "video",
     },
     {
       title: "Series & Episodes",
       description:
-        "Street trivia, product demos, challenge formats — branded episodic content that builds a loyal audience.",
+        "Street trivia, product demos, challenge formats: branded episodic content that builds a loyal audience.",
       icon: "mic",
     },
     {

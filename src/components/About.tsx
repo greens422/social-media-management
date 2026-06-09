@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mountain, Globe, Zap } from "lucide-react";
+import { Mountain, Globe, Zap, ExternalLink } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export function About() {
@@ -19,15 +19,45 @@ export function About() {
               <span className="text-yellow">BUILT TO GO VIRAL.</span>
             </h2>
             <p className="mt-6 text-lg text-white/50 leading-relaxed">
-              We&apos;re Seb and Tobi — two guys who started filming on the streets
+              We&apos;re Seb and Tobi, two guys who started filming on the streets
               of Whistler. Trivia outside Fat Tony&apos;s, poutine reactions at
               Chubby Ducks, product unboxings at Fanatyk Co.
             </p>
             <p className="mt-4 text-lg text-white/50 leading-relaxed">
-              Same high-energy, vlog-style format — whether you&apos;re a restaurant,
+              Same high-energy, vlog-style format, whether you&apos;re a restaurant,
               a bike shop, or any local business with personality. Same hooks.
               Same energy. New industry, same results.
             </p>
+
+            <div className="mt-10 grid gap-4 sm:grid-cols-2">
+              {siteConfig.founders.map((founder, i) => (
+                <motion.a
+                  key={founder.handle}
+                  href={founder.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: i * 0.1 }}
+                  className="group flex items-center gap-4 border-4 border-yellow/30 bg-ink-900 p-5 transition-all hover:border-yellow hover:shadow-[0_0_24px_rgba(255,229,0,0.15)]"
+                >
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center bg-yellow font-display text-2xl text-ink">
+                    {founder.name.charAt(0)}
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="font-display text-2xl text-white tracking-wide leading-none">
+                      {founder.name.toUpperCase()}
+                    </p>
+                    <p className="mt-1 text-sm text-yellow/80">{founder.handle}</p>
+                  </div>
+                  <ExternalLink
+                    size={18}
+                    className="shrink-0 text-white/30 transition-colors group-hover:text-yellow"
+                  />
+                </motion.a>
+              ))}
+            </div>
           </div>
 
           <div className="grid gap-4">
@@ -35,12 +65,12 @@ export function About() {
               {
                 icon: Mountain,
                 title: "Whistler roots",
-                desc: "We know mountain-town businesses — seasonal crowds, tight communities, and the pressure to stand out online.",
+                desc: "We know mountain-town businesses: seasonal crowds, tight communities, and the pressure to stand out online.",
               },
               {
                 icon: Globe,
                 title: "Any business, same energy",
-                desc: "Food, retail, hospitality, outdoor — if you've got a story and a personality, we've got the format.",
+                desc: "Food, retail, hospitality, outdoor. If you've got a story and a personality, we've got the format.",
               },
               {
                 icon: Zap,
@@ -82,7 +112,7 @@ export function About() {
             &rdquo;
           </p>
           <footer className="mt-6 font-display text-lg text-yellow/60 tracking-wide">
-            — LOCAL BUSINESS PARTNER, {siteConfig.origin.toUpperCase()}
+            Local business partner, {siteConfig.origin.toUpperCase()}
           </footer>
         </motion.blockquote>
       </div>
