@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Two Guys Media",
   shortName: "Two Guys",
+  coverImage: "/cover-photo.png",
   founders: [
     {
       name: "Seb",

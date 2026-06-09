@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     type: "website",
+    images: [{ url: siteConfig.coverImage, width: 1200, height: 630, alt: siteConfig.name }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.coverImage],
   },
 };
 

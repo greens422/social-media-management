@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Play, MapPin, ChevronDown } from "lucide-react";
 import { siteConfig } from "@/config/site";
@@ -8,7 +9,17 @@ import { FeaturedReelStack } from "@/components/FeaturedReelStack";
 export function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-ink">
-      <div className="absolute inset-0 bg-halftone opacity-50" />
+      <div className="absolute inset-0">
+        <Image
+          src={siteConfig.coverImage}
+          alt=""
+          fill
+          priority
+          className="object-cover object-left-top"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink/20 via-ink/70 to-ink" />
+      </div>
       <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-yellow/10 rounded-full blur-[150px]" />
 
       <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 pt-28 pb-20 lg:px-8">
