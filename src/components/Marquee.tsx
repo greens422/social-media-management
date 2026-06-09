@@ -1,5 +1,5 @@
 const items = [
-  "TWO GUYS MEDIA",
+  "GOOD PEOPLE MEDIA",
   "SEB & TOBI",
   "RESTAURANTS",
   "BIKE SHOPS",

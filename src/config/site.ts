@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Two Guys Media",
-  shortName: "Two Guys",
+  name: "Good People Media",
+  shortName: "GPM",
   coverImage: "/cover-photo.png",
   founders: [
     {
@@ -18,7 +18,7 @@ export const siteConfig = {
   description:
     "We make vlog-style reels for local businesses: restaurants, bike shops, retail, and anyone with a story worth telling. Street trivia, product unboxings, challenge series, and content people actually send to their friends.",
   origin: "Whistler, BC",
-  email: "hello@twoguysmedia.co",
+  email: "hello@goodpeoplemedia.co",
   social: {
     instagram: "https://instagram.com",
     tiktok: "https://tiktok.com",

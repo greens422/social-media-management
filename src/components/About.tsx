@@ -19,7 +19,7 @@ export function About() {
               <span className="text-yellow">BUILT TO GO VIRAL.</span>
             </h2>
             <p className="mt-6 text-lg text-white/50 leading-relaxed">
-              We&apos;re Seb and Tobi, two guys who started filming on the streets
+              We&apos;re Seb and Tobi, good people who started filming on the streets
               of Whistler. Trivia outside Fat Tony&apos;s, poutine reactions at
               Chubby Ducks, product unboxings at Fanatyk Co.
             </p>
