@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 sm:flex-row lg:px-8">
         <div className="flex items-center gap-3">
           <span className="flex h-8 w-8 items-center justify-center bg-yellow font-display text-sm text-ink">
-            2G
+            GPM
           </span>
           <span className="text-sm text-white/40">
             © {new Date().getFullYear()} {siteConfig.name}

@@ -34,7 +34,7 @@ export function Navigation() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <a href="#" className="group flex items-center gap-3">
           <span className="flex h-9 min-w-9 items-center justify-center bg-yellow px-1.5 font-display text-lg text-ink leading-none">
-            2G<span className="font-sans text-[11px] font-bold lowercase relative top-px">s</span>
+            GPM
           </span>
           <span className="font-display text-xl tracking-wider text-white group-hover:text-yellow transition-colors">
             {siteConfig.name.toUpperCase()}
